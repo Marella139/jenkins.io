@@ -285,7 +285,7 @@ use the following command to perform a quick software update:
 
 [source,bash]
 ----
-[ec2-user ~]$ sudo yum install jenkins java-1.8.0-openjdk-devel -y
+[ec2-user ~]$ sudo yum install jenkins epel-release java-11-openjdk-devel -y
 ----
 
 [source,bash]
